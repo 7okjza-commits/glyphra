@@ -5,6 +5,23 @@
     font-family:'Cairo',sans-serif;
 }
 
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.logo img{
+    width:55px;
+    height:55px;
+    object-fit:contain;
+}
+
+.logo h2{
+    color:#8B3DFF;
+    font-weight:700;
+}
+
 :root{
     --primary:#8B3DFF;
     --primary-light:#B26CFF;
